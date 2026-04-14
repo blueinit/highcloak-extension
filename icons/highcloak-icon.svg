@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="cloakGrad" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#00E4B8"/>
+      <stop offset="100%" stop-color="#00B894"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield outline -->
+  <path d="M 256 40 L 432 128 C 432 128 444 296 256 472 C 68 296 80 128 80 128 Z"
+        stroke="url(#cloakGrad)" stroke-width="24" stroke-linejoin="round" fill="none"/>
+  <!-- Checkmark -->
+  <polyline points="180,260 235,320 340,200"
+           stroke="url(#cloakGrad)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

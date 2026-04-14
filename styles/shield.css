@@ -1,0 +1,108 @@
+#hc-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999999;
+  background: #0F1729;
+  color: #E2E8F0;
+  padding: 8px 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 13px;
+  border-top: 2px solid #00D4AA;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+#hc-banner.hc-warning {
+  background: #1a0f0f;
+  border-top-color: #F59E0B;
+}
+
+#hc-banner.hc-blocked {
+  background: #1a0505;
+  border-top-color: #EF4444;
+  border-top-width: 3px;
+}
+
+#hc-banner.hc-blocked .hc-text {
+  color: #EF4444;
+}
+
+#hc-banner.hc-blocked .hc-count {
+  color: #ff8888;
+}
+
+.hc-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.hc-icon {
+  font-size: 16px;
+}
+
+.hc-text {
+  font-weight: 600;
+}
+
+.hc-count {
+  color: #EF4444;
+  font-size: 12px;
+}
+
+.hc-btn {
+  padding: 4px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hc-redact {
+  background: #00D4AA;
+  color: #0F1729;
+  margin-left: auto;
+}
+
+.hc-redact:hover {
+  background: #00E4B8;
+}
+
+.hc-dismiss {
+  background: transparent;
+  color: #64748B;
+  border: 1px solid #1E293B;
+}
+
+.hc-dismiss:hover {
+  color: #E2E8F0;
+  border-color: #64748B;
+}
+
+.hc-nudge {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #1E293B;
+}
+
+.hc-nudge-text {
+  font-size: 13px;
+  color: #E2E8F0;
+  margin-bottom: 8px;
+}
+
+.hc-nudge-share {
+  background: #00D4AA;
+  color: #0F1729;
+}
+
+.hc-nudge-dismiss {
+  background: transparent;
+  color: #64748B;
+  border: 1px solid #1E293B;
+  margin-left: 8px;
+}
