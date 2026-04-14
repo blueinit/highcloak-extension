@@ -34,15 +34,28 @@ No data leaves your browser. No server required. No account needed.
 
 ## Install
 
-### From Chrome Web Store
-*(Coming soon)*
+### Browser stores
+- **Chrome Web Store** — *(coming soon)*
+- **Firefox Add-ons (AMO)** — *(coming soon)*
+- **Edge Add-ons** — *(coming soon)*
+
+Works on any Chromium browser (Chrome, Edge, Brave, Arc, Opera, Vivaldi) and Firefox.
 
 ### From source
+
+**Chrome / Edge / Brave:**
 1. Clone this repo
-2. Open `chrome://extensions` in Chrome
+2. Open `chrome://extensions` (or `edge://extensions`)
 3. Enable "Developer mode" (top right)
 4. Click "Load unpacked" and select this directory
-5. Visit ChatGPT, Claude, Gemini, or Copilot — the banner appears at the bottom
+
+**Firefox:**
+1. Clone this repo
+2. Open `about:debugging#/runtime/this-firefox`
+3. Click "Load Temporary Add-on"
+4. Select `manifest.json` from this directory
+
+Visit ChatGPT, Claude, Gemini, or Copilot — the banner appears at the bottom.
 
 ## Optional: Enhanced detection server
 

@@ -3,6 +3,12 @@
   "name": "Highcloak",
   "version": "1.0.0",
   "description": "Detect and block personal data before sending to AI tools. Detection runs locally — we never see your data.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "extension@highcloak.com",
+      "strict_min_version": "109.0"
+    }
+  },
   "permissions": ["activeTab", "storage"],
   "host_permissions": [
     "https://chatgpt.com/*",
